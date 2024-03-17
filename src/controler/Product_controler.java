@@ -31,7 +31,7 @@ public class Product_controler {
     
     
     public void Insert( String name, double price, String supplier,String final_date) { //paste: 
-        String insertSQL = "INSERT INTO Products (name,price,supplier,final_date) VALUES (?,?,?,?)";
+        String insertSQL = "INSERT INTO Users (name,price,supplier,final_date) VALUES (?,?,?,?)";
         try (Connection conn = connect(); PreparedStatement pstmt = conn.prepareStatement(insertSQL)) {
             
             pstmt.setString(1, name);

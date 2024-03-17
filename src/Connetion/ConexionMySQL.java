@@ -19,7 +19,7 @@ public class ConexionMySQL {
     private static final String DRIVER = "com.mysql.cj.jdbc.Driver";
 
     // Nombre de la base de datos
-    private static final String DATABASE = "my-first-mysql";
+    private static final String DATABASE = "prueba";
 
     // Host
     private static final String HOSTNAME = "localhost";
